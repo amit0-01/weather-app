@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Set your desired background color */
+}
+.container{
+    background: linear-gradient(108.7deg, rgb(224, 235, 213) 8.1%, rgb(37, 148, 141) 91.2%);    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 57vh;
+    height: 75vh;
+    border-radius: 13px;
+  
+}
+
+.top{
+    display: flex;
+    gap:4vh;
+   /* width:100%;
+    justify-content: center; */
+}
+ /*
+.search-circle{
+    background: white;
+    width: 6vh;
+    height: 6vh;
+    position: relative;
+    left: 42vh;
+    top:-1vh;
+    border-radius: 36px;
+}   */
+
+.search-button{
+    z-index: 1;
+    left: 1vh;
+    position: relative;
+    top: 2vh;
+}
+
+.search-bar input{
+    border: 0px solid white;
+    border-radius: 26px;
+    width: 348px;
+    height: 6vmin;
+}
+
+.weather img{
+    width: 25vh;
+}
+
+.bottom {
+    display: flex;
+    gap:30vh;
+    color: white;
+    position: relative;
+    bottom:22vh;
+}
+
+.left {
+    top: 10vh;
+    left:5vh;
+    position: relative;
+}
+
+.left img{
+    width:6vh;
+    bottom: 3vh;
+    position: relative;
+    right: 1vh;
+}
+
+.right img{
+    width:6vh;
+    bottom: 3vh;
+    position: relative;
+    right: 80px;
+}
+
+.right{
+    top: 10vh;
+    position: relative;
+    right: 5vh;
+}
+
+.info1{
+    left:9vh;
+    position: relative;
+    bottom:13vh;
+}
+.info1 h4{
+    bottom:2vh;
+    position: relative;
+}
+
+
+
+.info2{
+    left: 3vh;
+    position: relative;
+    bottom: 13vh;
+    font-size: 16px;
+}
+
+.info2 h6{
+    bottom:4vh;
+    position: relative;
+    font-size: 15px;
+}
+.weather{
+    color: white;
+}
+
+.weather h1{
+    font-size: 12vh;
+    top: -7vh;
+    position: relative;
+
+}
+
+.weather p{
+    font-size: 7vh;
+    top:-16vh;
+    position: relative;
+}
+
+.search-button button {
+    bottom: 13px;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    right: 22px;
+    border-radius: 29px;
+}
